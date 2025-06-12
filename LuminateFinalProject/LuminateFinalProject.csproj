@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Controllers\" />
+    <None Remove="Views\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="DataAccessLayer\" />
+    <None Remove="Views\Home\" />
+    <None Remove="ViewModels\" />
+    <None Remove="ViewModels\HomeViewModels\" />
+    <None Remove="Views\Shop\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Manage\" />
+    <None Remove="Areas\Manage\Controllers\" />
+    <None Remove="Areas\Manage\Views\" />
+    <None Remove="Areas\Manage\Views\Shared\" />
+    <None Remove="Areas\Manage\Views\Dashboard\" />
+    <None Remove="Areas\Manage\Views\Category\" />
+    <None Remove="Areas\Manage\Views\Material\" />
+    <None Remove="Areas\Manage\Views\Product\" />
+    <None Remove="Extensions\" />
+    <None Remove="Helpers\" />
+    <None Remove="ViewModels\ShopViewModels\" />
+    <None Remove="Views\Product\" />
+    <None Remove="Views\Account\" />
+    <None Remove="ViewModels\AccountViewModels\" />
+    <None Remove="Areas\Manage\ViewModels\" />
+    <None Remove="Areas\Manage\ViewModels\UserViewModels\" />
+    <None Remove="ViewModels\ProductReviewVMs\" />
+    <None Remove="Areas\Manage\Views\User\" />
+    <None Remove="ViewModels\BasketViewModels\" />
+    <None Remove="Views\Basket\" />
+    <None Remove="Services\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Views\Order\" />
+    <None Remove="Enums\" />
+    <None Remove="ViewModels\OrderViewModels\" />
+    <None Remove="Areas\Manage\Views\Order\" />
+    <None Remove="Views\Blog\" />
+    <None Remove="Views\AboutUs\" />
+    <None Remove="Views\Collections\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="DataAccessLayer\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\HomeViewModels\" />
+    <Folder Include="Views\Shop\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Manage\" />
+    <Folder Include="Areas\Manage\Controllers\" />
+    <Folder Include="Areas\Manage\Views\" />
+    <Folder Include="Areas\Manage\Views\Shared\" />
+    <Folder Include="wwwroot\manage\" />
+    <Folder Include="Areas\Manage\Views\Dashboard\" />
+    <Folder Include="Areas\Manage\Views\Category\" />
+    <Folder Include="Areas\Manage\Views\Material\" />
+    <Folder Include="Areas\Manage\Views\Product\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="ViewModels\ShopViewModels\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="ViewModels\AccountViewModels\" />
+    <Folder Include="Areas\Manage\ViewModels\" />
+    <Folder Include="Areas\Manage\ViewModels\UserViewModels\" />
+    <Folder Include="ViewModels\ProductReviewVMs\" />
+    <Folder Include="Areas\Manage\Views\User\" />
+    <Folder Include="ViewModels\BasketViewModels\" />
+    <Folder Include="Views\Basket\" />
+    <Folder Include="Services\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Views\Order\" />
+    <Folder Include="Enums\" />
+    <Folder Include="ViewModels\OrderViewModels\" />
+    <Folder Include="Areas\Manage\Views\Order\" />
+    <Folder Include="Views\Blog\" />
+    <Folder Include="Views\AboutUs\" />
+    <Folder Include="Views\Collections\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\manage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+  </ItemGroup>
+</Project>
