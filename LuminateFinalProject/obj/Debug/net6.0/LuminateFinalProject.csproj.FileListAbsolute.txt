@@ -142,3 +142,8 @@
 /Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/obj/Debug/net6.0/LuminateFinalProject.pdb
 /Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/obj/Debug/net6.0/LuminateFinalProject.genruntimeconfig.cache
 /Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/obj/Debug/net6.0/ref/LuminateFinalProject.dll
+/Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/bin/Debug/net6.0/publish/web.config
+/Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/bin/Debug/net6.0/publish/appsettings.Development.json
+/Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/bin/Debug/net6.0/publish/appsettings.json
+/Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/bin/Debug/net6.0/publish/LuminateFinalProject.deps.json
+/Users/eminsuleymanov/Downloads/Luminate-Final-main/LuminateFinalProject/bin/Debug/net6.0/publish/LuminateFinalProject.runtimeconfig.json
